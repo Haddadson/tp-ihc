@@ -438,11 +438,12 @@ mark, .mark {
 }
 
 .img-fluid {
-  max-width: 60%;
+  max-width: 80%;
   height: auto;
   align-content: center;
   align-items: center;
   text-align: center;
+  position: relative;
 }
 
 .img-thumbnail {
