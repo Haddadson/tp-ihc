@@ -1,9 +1,17 @@
 $(document).ready(function () {
-  $("#qtd-kg-carne").on("keyup blur change", function (e) {
 
+  $("#aviso").hide();
+
+  $("#qtd-kg-carne").on("keydown", function (e){
+    return e.keyCode !== 69 && e.keyCode !== 189;
+  });
+
+  $("#calcular-qtd").on("click", function (e) {
+    $("#aviso").hide();
     let quantidade = $("#qtd-kg-carne").val();
 
     if(!quantidade || quantidade == 0){
+      $("#aviso").show();
       $("#descarga").html('X');
       $("#banho").html('X');
       $("#maquina-lavar").html('X');
@@ -15,8 +23,6 @@ $(document).ready(function () {
 
       let litrosGastosPorQtd = litrosPorQuiloCarne * quantidade;
       
-      console.log(litrosGastosPorQtd);
-  
       let qtdDescargas = litrosGastosPorQtd / 10;
       let qtdBanhos = litrosGastosPorQtd / 15;
       let qtdLavagemMaquina = litrosGastosPorQtd / 150;

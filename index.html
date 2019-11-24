@@ -20,6 +20,7 @@
 	<link rel="stylesheet" href="css/magnific-popup.css">
 
 	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/main.css">
 
 	<link rel="stylesheet" href="css/ionicons.min.css">
 
@@ -233,15 +234,19 @@
 					<h2 class="mb-4">Caculadora de Gasto hídrico</h2>
 					<p>Saiba quantos vezes cada um dos itens abaixo poderiam ser feitos com a água gasta em</p>
 					<div class="form-group" style="align-content: center">
-						<input id="qtd-kg-carne" type="number" class="form-control" placeholder="Digite um peso"
+						<input id="qtd-kg-carne" type="number" class="form-control" 
+							min="0"
+							placeholder="Digite um peso"
 							style="width: 150px; margin-left: 43%">
 					</div>
 					<p>Kg de carne bovina: </p>
+					<button id="calcular-qtd" class="btn btn-primary py-3 px-4">Calcular</button>
+					<div id="aviso" class="alert alert-danger">Por favor, preencha o campo com a quantidade de Kg de carne consumidos.</div>
 				</div>
 			</div>
 		</div>
 		<div class="container">
-			<div class="row">
+			<div id="container-qtds-gastos" class="row">
 
 				<div class="col-md-6 col-lg-3 ftco-animate">
 					<div class="product">
@@ -470,6 +475,7 @@
 		</div>
 	</section>
 	-->
+
 	<footer class="ftco-footer ftco-section">
 		<div class="container">
 			<div class="row">
