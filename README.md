@@ -54,17 +54,22 @@ Essa parte retrata o quanto a natureza está reagindo a toda a ação provocada 
 	 - 68 anos
 	 - Aposentado
 	 - Gosta de estar atento à descobertas
+
 <br/>
+
 - Ana Lucia
 	- 65 anos
 	- Aposentada
 	- Deseja ajudar crianças no futuro
+  
 <br/>
+
 - Juliana Almeida
 	- 23 anos
 	- Advogada
 	- Gosta de esportes e Triathlon
-
+  
+<br/>
 
 >Todos possuem relações, mesmo que indiretamente, com a natureza e sua preservação
 
