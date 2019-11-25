@@ -81,7 +81,12 @@ Os casos de uso definidos e implementados foram:
 
 ## Diagramas MoLIC
 
+#### MoLIC 1
+
 <img src="https://github.com/Haddadson/tp-ihc/blob/master/docs/molic%201.png?raw=true" alt="Molic 1"/>
+
+#### MoLIC 2
+
 <img src="https://github.com/Haddadson/tp-ihc/blob/master/docs/molic%202.png?raw=true" alt="Molic 2"/>
 
 ## Primeira versão
